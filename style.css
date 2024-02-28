@@ -1,0 +1,43 @@
+body {
+    background-color: palegreen;
+    font-family: 'Bebas Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    color: maroon;
+}
+
+.container {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: palegreen;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
